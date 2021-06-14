@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="inputBook">
+        <form>
+            <fieldset name="userFields">
+                <legend>Add a new book to the library</legend>
+                <ul style="list-style-type:none">
+                    <li>
+                        <label for="title">Title:</label>
+                        <input type="text" id="title" name="title">
+                    </li>
+                    <li>
+                        <label for="author">Author:</label>
+                        <input type="text" id="author" name="author">
+                    </li>
+                    <li>
+                        <label for="pages">Number of pages:</label>
+                        <input type="text" id="pages" name="pages">
+                    </li>
+                    <li>
+                        <label for="read">Read:</label>
+                        <input type="checkbox" id="read"  value="read">
+                    </li>
+                    <li>
+                        <button id="submitBook" type="button">Submit book to the library</button>
+                    </li>
+                </ul>
+            </fieldset>
+        </form>
+    </div>
+    <div class="outputLibrary">
+
+    </div>
+</div>
+</body>
+</html>
+<script src="script.js"></script>
